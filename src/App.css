@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+.left-container {
+  height: 700px;
+  width: 280px;
+  background: #ffffff;
+  margin: 10px;
+  border-radius: 16px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leftside-part1 {
+  height: 50px;
+  /* border: 1px solid black; */
+  padding: 16px, 24px, 12px, 24px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-data {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 25px;
+  gap: 7px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.flex {
+  display: flex;
+}
+.header-name {
+  font-size: x-large;
+  color: #131313;
+  font-weight: 500;
+  margin-top: -5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  /* height: 25px; */
+  padding: 0px, 12px, 12px, 12px;
+  gap: 8px;
+  background: #ffffff;
+  /* background: linear-gradient(0deg, #f1f1f1, #f1f1f1),
+    linear-gradient(0deg, #ffffff, #ffffff); */
+  border: 1px solid #f1f1f1;
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.search-img {
+  height: 18px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.search-name {
+  margin-top: 7px;
+  color: #7d7d7d;
+  margin-left: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.arrow {
+  height: 23px;
+  margin-left: 95px;
+  margin-top: 10px;
+}
+
+.dashboard {
+  width: 260px;
+  height: 30px;
+  padding: 12px, 20px, 12px, 20px;
+  gap: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.dashboard-img {
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.dashboard-name {
+  margin-top: 9px;
+  margin-left: 10px;
+  color: #131313;
+}
+.footer {
+  margin-top: 140px;
+  /* border: 1px solid red; */
+  cursor: pointer;
+}
+.gustavo-img {
+  margin-left: 20px;
+}
+.gustavo {
+  margin-left: 15px;
+}
+.dashboard-img1 {
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.dashboard-name1 {
+  margin-top: 9px;
+  margin-left: 2px;
+  color: #131313;
+}
+.admin {
+  background: #ffcd71;
+  width: 45px;
+  height: 18px;
+  padding: 0px, 6px, 0px, 6px;
+  border-radius: 24px;
+  gap: 8px;
+  font-size: small;
+  text-align: center;
 }
