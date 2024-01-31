@@ -1,13 +1,21 @@
 
 
 Step by step process to complete the task:
+
 Identifed List of Components:
+
 Menu bar
+
 Dashboard
+
 Revenue Section (Revenues, Lost deals, Quarter goal)
+
 CustomersSection
+
 Growth section (Graph X-Year & Y-Numbers in 0 to 10K , Top Month, Top year & Top buyer)
+
 ChatsToNewDeals (Chats, Top states & New deals)
+
 
 
 Project's Demo link : https://harshals-orangefarm.netlify.app/
